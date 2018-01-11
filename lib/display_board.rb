@@ -6,6 +6,6 @@ def display_board(board)
   row[3] = "-----------";
   row[4] = " #{board[6]} | #{board[7]} | #{board[8]} ";
   for i in 0..row.length-1
-    puts row[i]
+    puts row[i];
   end
 end
